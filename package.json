@@ -1,0 +1,17 @@
+{
+  "name": "tts-flutter-frontend",
+  "version": "1.0.0",
+  "description": "TTS多角色语音合成前端",
+  "main": "workers-site/index.js",
+  "scripts": {
+    "build": "flutter build web",
+    "deploy": "wrangler deploy",
+    "dev": "flutter run -d web"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

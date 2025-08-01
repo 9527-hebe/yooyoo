@@ -1,0 +1,14 @@
+{
+    "name": "tts-flutter-web",
+    "compatibility_date": "2025-07-31",
+    "main": "workers-site/index.js",
+    "site": {
+        "bucket": "./build/web"
+    },
+    "build": {
+        "command": "flutter build web"
+    },
+    "observability": {
+        "enabled": true
+    }
+}
